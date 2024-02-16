@@ -15,7 +15,7 @@ const NutritionUser = () => {
   return (
     <div>
     <div className='flex flex-col items-center justify-center gap-2 mt-[5rem]'> 
-       <textarea placeholder='Enter text' className='border border-black p-[0.5rem] rounded-lg' onChange={(e)=>setText(e.target.value)} value={text} > </textarea>
+       <textarea placeholder='Enter text' className='border border-black p-[0.5rem] rounded-lg  lg:w-[20rem] md:w-[10rem]' onChange={(e)=>setText(e.target.value)} value={text} > </textarea>
        <button className='px-[4rem] p-[0.3rem] rounded-[3rem] bg-red-900 border-none bg-gradient-to-r from-red-600 to-purple-500  text-white' onClick={()=>{  
         Clicking()
        }}>GO </button>
